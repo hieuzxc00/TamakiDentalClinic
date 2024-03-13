@@ -1,0 +1,195 @@
+/*==========================================================================*/
+
+
+/*                     H O V E R    &    P C    O N L Y                     */
+
+
+/*==========================================================================*/
+
+@media screen and (min-width: 751px) {
+    #lightboxOverlay,
+    #lightbox {
+        min-width: var(--content-width) !important;
+        width: 100% !important;
+    }
+    .sp {
+        display: none !important;
+    }
+    a:hover {
+        text-decoration: none;
+    }
+    .to-top a:hover {
+        opacity: 0.7;
+    }
+    .idx-fx-h .gnavi .idx-menu li.has:hover .sub-menu {
+        opacity: 1;
+        visibility: visible;
+    }
+    .idx-fx-h .gnavi .idx-menu li:hover:before {
+        opacity: 1;
+    }
+    .idx-fx-h .gnavi .idx-menu li a:hover,
+    .idx-fx-h .gnavi .idx-menu li label:hover,
+    .idx-btn a:hover,
+    .idx-box-toggle .btn:hover,
+    .idx-fx-case .idx-case-btn li span:hover {
+        opacity: 0.7;
+        transition: 0.3s all;
+    }
+    .idx-fx-case .idx-case-btn li span.active:hover {
+        opacity: 1;
+    }
+    .idx-list-case li a:hover,
+    .f-fx-box03 .f-menu li a:hover {
+        text-decoration: underline;
+        opacity: 0.7;
+        transition: 0.3s all;
+    }
+    .idx-btn a:hover {
+        transform: translateY(-5px);
+    }
+    .idx-sliderfix {
+        ul {
+            li {
+                &.tel {
+                    .idx-box-tel {
+                        min-width: 340px;
+                        padding: 21px 16px 21px;
+                        .cnt {
+                            padding: 39px 15px 50px;
+                            height: 100%;
+                            .tel {
+                                font-size: 33px;
+                                span {
+                                    font-size: 23px;
+                                }
+                            }
+                            .ttl-tel {
+                                font-size: 15px;
+                            }
+                            .tel-time {
+                                font-size: 15px;
+                            }
+                            .tel-txt {
+                                font-size: 15px;
+                                line-height: 2em;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .idx-fx-h .gnavi .idx-menu>li.active a:hover,
+    .idx-fx-h .gnavi .idx-menu>li.active label:hover {
+        opacity: 1;
+    }
+    .idx-fx-h .gnavi .idx-menu>li.active .sub-menu li a:hover,
+    .idx-fx-h .gnavi .idx-menu>li.active .sub-menu li label:hover {
+        opacity: 0.7;
+    }
+    /* END screen-min:751px */
+}
+
+@media screen and (min-width: 751px) and (max-width: 1640px) {
+    /* END screen-min:751px && screen-max:1500px */
+    .idx-sliderfix ul li.tel:first-child,
+    .idx-sliderfix ul li.web {
+        height: 50%;
+    }
+    .idx-mainvisual,
+    .idx-parallax,
+    .idx-slider {
+        min-height: 700px;
+    }
+    .idx-mainvisual {
+        padding-top: 320px;
+    }
+    .idx-slider02 {
+        height: 700px;
+    }
+    .idx-clinic {
+        padding: 295px 60px 295px 0;
+    }
+    .idx-special,
+    .idx-list-strength {
+        padding-right: 60px;
+    }
+    .idx-list-strength {
+        li {
+            width: calc(100% / 4)
+        }
+    }
+    .idx-fx-training {
+        padding-left: 0;
+    }
+    .idx-sliderfix {
+        ul {
+            li {
+                &.tel {
+                    .idx-box-tel {
+                        min-width: 270px;
+                        padding: 10px;
+                        .cnt {
+                            padding: 5px;
+                            height: 100%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            .tel {
+                                font-size: 24px;
+                                margin-bottom: 0;
+                                span {
+                                    font-size: 16px;
+                                }
+                            }
+                            .ttl-tel {
+                                font-size: 13px;
+                                padding: 5px 10px;
+                            }
+                            .tel-time {
+                                font-size: 12px;
+                                line-height: 1.5em;
+                            }
+                            .tel-txt {
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 751px) and (max-width: 1440px) {
+    .logo {
+        img {
+            width: 240px;
+        }
+    }
+    .idx-fx-h {
+        .idx-logo {
+            .logo-ttl {
+                font-size: 11px;
+            }
+        }
+        .gnavi {
+            .idx-menu {
+                li {
+                    margin-right: 25px;
+                    a,
+                    label {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+    h1 {
+        padding-right: 60px;
+    }
+    .idx-professional {
+        left: -10px;
+    }
+}

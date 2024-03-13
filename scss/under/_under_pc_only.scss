@@ -1,0 +1,71 @@
+/*==========================================================================*/
+
+
+/*                     H O V E R    &    P C    O N L Y                     */
+
+
+/*==========================================================================*/
+
+@media screen and (min-width: 751px) {
+    .underline:hover {
+        text-decoration: underline;
+    }
+    .wp-pagenavi,
+    .pagination {
+        a {
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+    }
+    .udr-btn:hover {
+        opacity: .7;
+        transform: translateY(-5px);
+        &.udr-btn-more,
+        &.udr-btn-more-bottom {
+            transform: translateY(0);
+        }
+    }
+    #topic_path ul li a:hover {
+        text-decoration: underline;
+    }
+    .udr-anchor-item a:hover, .udr-box-04 .box-item:not(.reserve) .box-item-btn a:hover {
+        opacity: .7;
+        transform: translateY(-5px);
+    }
+    .pager li:not(.active) a:hover {
+        opacity: .7;
+        background: var(--color-primary);
+        &.active {
+            background: #a98c4a;
+        }
+    }
+    .blog-list {
+        .blog-item:hover {
+            opacity: 0.7;
+            .blog-item-top .blog-item-img img {
+                transform: scale(1.2);
+            }
+        }
+    }
+    .blog-field3-img li a:hover img,  .blog-field2-img div a:hover img {
+        transform: translate(-50%, -50%) scale(1.2, 1.2);
+    }
+    .blog-field1-img a:hover img {
+        transform: scale(1.2, 1.2);
+    }
+
+    .blog-cate {
+        li.active {
+            a:hover {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    }
+    /* END screen-min:751px */
+}
+
+@media screen and (min-width: 751px) and (max-width: 1500px) {
+    /* END screen-min:751px && screen-max:1500px */
+}
